@@ -12,7 +12,7 @@ body{
     line-height: 1;
     font-size: 16px;
     color: black;
-    font-family: 'Nunito Bold';
+    /*font-family: 'Nunito Bold';*/
 }
 
 .wrapper{
@@ -20,9 +20,31 @@ body{
     overflow: hidden;
 }
 
+.header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+
 ._container{
-    background-color: orange;
     max-width: 1140px;
     margin: 0px auto;
 }
 
+.header_container{
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+}
+
+.logo{
+    /*margin-left: 52px;*/
+    /*margin-top: 72px;*/
+}
+
+.cart{
+    margin-left:878px ;
+}
