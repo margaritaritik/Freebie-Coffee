@@ -38,13 +38,28 @@ body{
     display: flex;
     min-height: 40px;
     align-items: center;
-}
-
-.logo{
-    /*margin-left: 52px;*/
     /*margin-top: 72px;*/
 }
 
+
+
+.logo{
+    /*margin-left: 52px;*/
+    margin-top: 72px;
+}
+
 .cart{
+    margin-top: 72px;
     margin-left:878px ;
+}
+
+
+/*....MENU......................................................*/
+.header_menu{
+    margin-bottom: 200px;
+    /*margin-top: 200px;*/
+}
+.menu{
+    /*margin: 0px 0 0px 0px;*/
+    /*margin-top: 282px;*/
 }
