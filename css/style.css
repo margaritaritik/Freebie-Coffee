@@ -26,6 +26,8 @@ body{
     left: 0;
     top: 0;
     z-index: 50;
+
+
 }
 
 
@@ -38,7 +40,7 @@ body{
     display: flex;
     min-height: 40px;
     align-items: center;
-    /*margin-top: 72px;*/
+    /*margin-top: 72px;*!*/
 }
 
 
@@ -49,14 +51,31 @@ body{
 }
 
 .cart{
+    position: absolute;
+    right: 180px;
+    /*top:100px;*/
+    /*left:180px;*/
     margin-top: 72px;
-    margin-left:878px ;
+    /*margin-left:878px ;*/
 }
 
 
 /*....MENU......................................................*/
+
+.page{
+    flex: 1 1 auto;
+}
+
+.menu_div{
+    /*margin-right: 200px;*/
+    position: absolute;
+    /*top: 20px;*/
+    right:77px;
+    top: 282px;
+}
 .header_menu{
-    margin-bottom: 200px;
+    /*margin-right: 127px;*/
+    /*margin-bottom: 200px;*/
     /*margin-top: 200px;*/
 }
 .menu{
