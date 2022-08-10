@@ -71,7 +71,7 @@ body{
     position: absolute;
     /*top: 20px;*/
     right:77px;
-    top: 282px;
+    top: 230px;
 }
 .header_menu a{
     color:#EDF0F5;
@@ -83,6 +83,7 @@ body{
 .menu{
     /*margin: 0px 0 0px 0px;*/
     /*margin-top: 282px;*/
+
 }
 
 .menu_list{
@@ -96,7 +97,6 @@ body{
 .page_main_block{
     position: absolute;
     top:504px;
-
 }
 
 
