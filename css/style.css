@@ -37,6 +37,7 @@ body{
 }
 
 .header_container{
+    /*position: relative;*/
     display: flex;
     min-height: 40px;
     align-items: center;
@@ -48,6 +49,7 @@ body{
 .logo{
     /*margin-left: 52px;*/
     margin-top: 72px;
+
 }
 
 .cart{
@@ -130,8 +132,11 @@ body{
 /*....features block...........................*/
 .features{
     position: absolute;
-    top: 200px;
-    z-index: 100;
+    width: 100%;
+    /*max-width: 200px;*/
+    top:855px;
+    left:535px;
+
 }
 
 .features p{
