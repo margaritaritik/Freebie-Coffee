@@ -33,7 +33,7 @@ body{
 
 ._container{
     max-width: 1140px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .header_container{
@@ -126,3 +126,16 @@ body{
     max-width: 328px;
     background: #415167;
 }
+
+/*....features block...........................*/
+.features{
+    position: absolute;
+    top: 200px;
+    z-index: 100;
+}
+
+.features p{
+    font-size: 24px;
+    color: black;
+}
+
